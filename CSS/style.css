@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  rgb(135, 60, 130);
+    }
+/* aca empieza el encabezado*/
+
+.input{
+    position: absolute;
+    text-align: center;
+    height: 0%;
+    width: 75%;
+    margin-top: -35px;
+    padding-top: 5px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
+#buscador{
+    border: #333;
+    border-radius: 20px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@media (min-width: 1024px){
+    .input{
+        position: absolute;
+        text-align: center;
+        align-items: center;
+        height: 0%;
+        width: 40%;
+        margin-top: 40px;
+        padding-top: 5px;
+        flex-wrap: wrap;
+    }   
+
+    
+    #buscador{
+        border: #333;
+        border-radius: 20px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 400px){
+    .input{
+        position: absolute;
+        text-align: end;
+        align-items: center;
+        width: -20%;
+        margin-top: -40px;
+        padding-top: 5px;
+        flex-wrap: wrap;
+    }   
+
+    input{
+        border: #333;
+        border-radius: 20px;
+        text-align: center;
+        padding: 0px;
+
+    }
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: rgb(113, 1, 106);
+    color: #fff;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+}   
+
+.container{
+    width: 98%;
+    margin: auto;
+}
+
+h1{
+    float: left;
+}
+
+header .container{
+    display: table;
+}
+/* aca concluye el encabezado*/
+
+/*aca empieza el cuerpo*/
+main{
+    width: 100%;
+    height: 1000px;
+}
+/*aca empieza el cuerpo*/
+
+/*aca empieza el pie de pagina*/
+
+
+.parent2{
+    display: flex;
+    background-color: rgb(145, 12, 134);
+    justify-content: center;
+}
+
+.footer{
+    margin-top: -100px;
+    
+}
+
+.container__text{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    background: rgb(145, 12, 134);
+}
+
+.text__father{
+    margin: 20px;
+    perspective: 1000px;
+    background: rgb(145, 12, 134);
+}
+
+.text__father:hover .text{
+    transform: rotateY(180deg);
+}
+
+.text{
+    width: 600px;
+    height: 220px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1000ms;
+    background: rgb(145, 12, 134);
+
+}
+
+
+.text__front{
+    background-size: cover;
+    background-position: center;
+}
+
+.text__front, .text__back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.text__back{ 
+    transform: rotateY(180deg);
+    background: white;
+    border: 1px solid rgb(145, 12, 134);
+    border-radius: 40px;
+}
+
+.body__text_front{
+    width: 100%;
+    height: 100%;
+    text-align: centeer;
+    padding: 40px 20px 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translateZ(60px);
+    transform: translateZ(60px);
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%; 
+    border: 1px solid rgb(145, 12, 134);
+    border-radius: 40px;
+    background: rgba(255,255,255,0.1);
+}
+
+.body__text_back{
+    padding-top: 66px;
+    text-align: center;
+    transform: translateZ(60px);
+    font-size: 25px;
+}
+
+
+.body__text_back1{
+    padding: 40px;
+    text-align: center;
+    transform: translateZ(60px);
+}
+
+.body__text_back1 p{
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.body__text_back1 p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.body__text_back input{
+    padding: 10px 40px;
+    margin-top: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: rgb(145, 12, 134);
+    border-radius: 10px;
+}
+
+.social a {
+    text-decoration: none;
+}
+/*aca termina el pie de pagina*/
