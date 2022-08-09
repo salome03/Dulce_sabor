@@ -34,7 +34,8 @@ header{
 }
 
 .container{
-    
+    width: 98%;
+    margin: auto;
 }
 
 /*FIN DEL ENCABEZADO*/
