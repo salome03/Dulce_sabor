@@ -43,7 +43,7 @@ h1{
 }
 
 header .container{
-    
+    display: table;
 }
 
 /*FIN DEL ENCABEZADO*/
