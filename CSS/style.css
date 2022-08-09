@@ -11,4 +11,15 @@
 
 /*INICIO DEL ENCABEZADO*/
 
+.input{
+    position: absolute;
+    text-align: center;
+    height: 0%;
+    width: 75%;
+    margin-top: -35px;
+    padding-top: 5px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+}
+
 /*FIN DEL ENCABEZADO*/
