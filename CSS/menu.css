@@ -31,3 +31,6 @@ header label{
 .menu a:hover{
     backgound: rgba(255,255,255,0.1);
 }
+#menu_barra:checked  ~ .menu{
+    
+}
