@@ -29,5 +29,5 @@ header label{
     border-bottom: 1px solid rgba(255,255,255,0,5);
 }
 .menu a:hover{
-    
+    backgound: rgba(255,255,255,0.1);
 }
