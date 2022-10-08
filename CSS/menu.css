@@ -17,6 +17,11 @@ header label{
     transition: all 0.5s;
     transform: translateX(100%);
 }
-.menu a{
-    
+.menu a{    
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0,5);
 }
