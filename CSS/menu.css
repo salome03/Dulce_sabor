@@ -1,7 +1,6 @@
 :root{
-    
+    --menu-fondo: rgb(113, 1, 106);
 }
-
 #menu_barra{
     display: none;
 }
