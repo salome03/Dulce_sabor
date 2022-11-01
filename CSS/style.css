@@ -6,7 +6,6 @@
 
 .parent{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:  rgb(135, 60, 130);
 }
 
 /*INICIO DEL ENCABEZADO*/
@@ -51,6 +50,7 @@ header .container{
 /* INICIO CUERPO DE PAGINA*/
     body{
         height: 100vh;
+        background-color: #020e26;
     }
 /* FIN CUERPO DE PAGINA*/
 
