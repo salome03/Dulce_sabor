@@ -1,0 +1,14 @@
+#menu_barra{
+    display: none;
+}
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0px;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    top: 50px;
+    left: 0%;
+}
